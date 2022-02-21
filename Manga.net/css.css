@@ -1,0 +1,36 @@
+body{
+  background-image: url("images.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.img{
+  height: 300px;
+  width: 230px;
+}
+.column {
+  float: left;
+  width: 20%;
+}
+.column2{
+  float: right;
+  width: 80%;
+}
+hr{
+  color: grey;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.carousel-item img{
+  height: 400px;
+  width:300px;
+}
+.carousel{
+  height: 400px;
+  width:300px;
+}
